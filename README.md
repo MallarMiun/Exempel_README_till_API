@@ -3,7 +3,7 @@ Detta repository innehåller kod för ett enklare REST API byggt med Express. AP
 Grundläggande funktionalitet för CRUD (Create, Read, Update, Delete) är implementerad.
 
 ## Länk
-En liveversion av APIet finns tillgänglig på följande URL: [https://testserver.test/api.php](https://miun.se) 
+En liveversion av APIet finns tillgänglig på följande URL: [https://testserver.test/courses](https://miun.se) 
 
 ## Installation, databas
 APIet använder en MySQL-databas.
@@ -19,11 +19,11 @@ Nedan finns beskrivet hur man nå APIet på olika vis:
 
 |Metod  |Ändpunkt     |Beskrivning                                                                           |
 |-------|-------------|--------------------------------------------------------------------------------------|
-|GET    |/api.php     |Hämtar alla tillgängliga kurser.                                                      |
-|GET    |/api.php?=ID]|Hämtar en specifik kurs med angivet ID.                                               |
-|POST   |/api.php     |Lagrar en ny kurs. Kräver att ett kurs-objekt skickas med.                            |
-|PUT    |/api.php?=ID |Uppdaterar en existerande kurs med angivet ID. Kräver att ett kurs-objekt skickas med.|
-|DELETE |/api.php?=ID |Raderar en kurs med angivet ID.                                                       |
+|GET    |/courses     |Hämtar alla tillgängliga kurser.                                                      |
+|GET    |/courses/:ID|Hämtar en specifik kurs med angivet ID.                                               |
+|POST   |/courses     |Lagrar en ny kurs. Kräver att ett kurs-objekt skickas med.                            |
+|PUT    |/coures/:ID |Uppdaterar en existerande kurs med angivet ID. Kräver att ett kurs-objekt skickas med.|
+|DELETE |/courses/:ID |Raderar en kurs med angivet ID.                                                       |
 
 Ett kurs-objekt returneras/skickas som JSON med följande struktur:
 ```
