@@ -1,5 +1,5 @@
 # Exempel på README.md-fil för ett API
-Detta repository innehåller koden för ett enklare REST API byggt med Express. APIet är byggt för att hantera olika kurser som jag studerat under min tid på Mittuniversitetet. 
+Detta repository innehåller kod för ett enklare REST API byggt med Express. APIet är byggt för att hantera olika kurser som jag studerat under min tid på Mittuniversitetet. 
 Grundläggande funktionalitet för CRUD (Create, Read, Update, Delete) är implementerad.
 
 ## Länk
