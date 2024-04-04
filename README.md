@@ -22,7 +22,7 @@ Nedan finns beskrivet hur man nå APIet på olika vis:
 |GET    |/courses     |Hämtar alla tillgängliga kurser.                                                      |
 |GET    |/courses/:ID|Hämtar en specifik kurs med angivet ID.                                               |
 |POST   |/courses     |Lagrar en ny kurs. Kräver att ett kurs-objekt skickas med.                            |
-|PUT    |/coures/:ID |Uppdaterar en existerande kurs med angivet ID. Kräver att ett kurs-objekt skickas med.|
+|PUT    |/courses/:ID |Uppdaterar en existerande kurs med angivet ID. Kräver att ett kurs-objekt skickas med.|
 |DELETE |/courses/:ID |Raderar en kurs med angivet ID.                                                       |
 
 Ett kurs-objekt returneras/skickas som JSON med följande struktur:
